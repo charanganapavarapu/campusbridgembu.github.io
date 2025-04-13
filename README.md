@@ -36,7 +36,6 @@ Responsive design principles
 
 Backend:
 NodeJs
-ExpressJs
 MongoDb
 JWT(Authentication)
 
