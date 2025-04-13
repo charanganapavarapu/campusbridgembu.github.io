@@ -1848,4 +1848,289 @@ input:focus, select:focus, textarea:focus {
     100% {
         text-shadow: 0 0 20px rgba(var(--primary-color-rgb), 0.8);
     }
+
+    /* Footer Styles */
+.main-footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.footer-section {
+    margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-section p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: var(--accent-color);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 2rem;
+    }
+
+    .footer-section ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Apply custom cursors */
+a, button, .nav-links a, .action-btn, .role-btn, .run-btn, .start-challenge, .redeem-btn {
+    cursor: var(--cursor-pointer);
+}
+
+input, textarea, select, [contenteditable] {
+    cursor: var(--cursor-text);
+}
+
+.loading, .typing-indicator {
+    cursor: var(--cursor-wait);
+}
+
+/* Hover effects for interactive elements */
+a:hover, button:hover, .nav-links a:hover, .action-btn:hover, .role-btn:hover, .run-btn:hover, .start-challenge:hover, .redeem-btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+/* Custom cursor for drag operations */
+[draggable="true"] {
+    cursor: grab;
+}
+
+[draggable="true"]:active {
+    cursor: grabbing;
+}
+
+/* Custom cursor for resizable elements */
+.resize-handle {
+    cursor: nwse-resize;
+}
+
+/* Custom cursor for help elements */
+.help-icon {
+    cursor: help;
+}
+
+/* Custom cursor for not-allowed operations */
+.disabled, [disabled] {
+    cursor: not-allowed;
+}
+
+/* Custom cursor for move operations */
+.move-handle {
+    cursor: move;
+}
+
+/* Custom cursor for zoom operations */
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}
+
+/* Custom cursor for crosshair operations */
+.crosshair {
+    cursor: crosshair;
+}
+
+/* Custom cursor for progress operations */
+.progress {
+    cursor: progress;
+}
+
+/* Custom cursor for copy operations */
+.copy {
+    cursor: copy;
+}
+
+/* Custom cursor for alias operations */
+.alias {
+    cursor: alias;
+}
+
+/* Custom cursor for context menu operations */
+.context-menu {
+    cursor: context-menu;
+}
+
+/* Custom cursor for cell operations */
+.cell {
+    cursor: cell;
+}
+
+/* Custom cursor for vertical text operations */
+.vertical-text {
+    cursor: vertical-text;
+}
+
+/* Custom cursor for all scroll operations */
+.all-scroll {
+    cursor: all-scroll;
+}
+
+/* Custom cursor for col resize operations */
+.col-resize {
+    cursor: col-resize;
+}
+
+/* Custom cursor for row resize operations */
+.row-resize {
+    cursor: row-resize;
+}
+
+/* Custom cursor for no-drop operations */
+.no-drop {
+    cursor: no-drop;
+}
+
+/* Custom cursor for not-allowed operations */
+.not-allowed {
+    cursor: not-allowed;
+}
+
+/* Custom cursor for e-resize operations */
+.e-resize {
+    cursor: e-resize;
+}
+
+/* Custom cursor for n-resize operations */
+.n-resize {
+    cursor: n-resize;
+}
+
+/* Custom cursor for ne-resize operations */
+.ne-resize {
+    cursor: ne-resize;
+}
+
+/* Custom cursor for nw-resize operations */
+.nw-resize {
+    cursor: nw-resize;
+}
+
+/* Custom cursor for s-resize operations */
+.s-resize {
+    cursor: s-resize;
+}
+
+/* Custom cursor for se-resize operations */
+.se-resize {
+    cursor: se-resize;
+}
+
+/* Custom cursor for sw-resize operations */
+.sw-resize {
+    cursor: sw-resize;
+}
+
+/* Custom cursor for w-resize operations */
+.w-resize {
+    cursor: w-resize;
+}
+
+/* Custom cursor for ew-resize operations */
+.ew-resize {
+    cursor: ew-resize;
+}
+
+/* Custom cursor for ns-resize operations */
+.ns-resize {
+    cursor: ns-resize;
+}
+
+/* Custom cursor for nesw-resize operations */
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+/* Custom cursor for nwse-resize operations */
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+/* Custom cursor for zoom-in operations */
+.zoom-in {
+    cursor: zoom-in;
+}
+
+/* Custom cursor for zoom-out operations */
+.zoom-out {
+    cursor: zoom-out;
+}
+
+/* Custom cursor for grab operations */
+.grab {
+    cursor: grab;
+}
+
+/* Custom cursor for grabbing operations */
+.grabbing {
+    cursor: grabbing;
+}
+
+/* Custom cursor for custom operations */
+.custom {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%232563eb"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z"/></svg>'), auto;
+} 
+
+
+
 } 
