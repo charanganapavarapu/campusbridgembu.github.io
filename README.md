@@ -13,15 +13,26 @@ Web Development
 
 
 Problem Statement:
-Despite the rapid growth of educational technology, students often face a fragmented learning experience. Traditional LMS platforms primarily focus on academic tracking but lack integrated support for practical, skill-based learning, especially in areas like software development.Users complete tasks/quizzes and earn Aptos tokens as rewards.
+Despite the rapid growth of educational technology, students often face a fragmented learning experience. Traditional LMS platforms primarily focus on academic tracking but lack integrated support for practical, skill-based learning, especially in areas like software development.
 
-
+Users complete tasks/quizzes and earn Aptos tokens as rewards.
+University's reliance on third-party platforms for placement tests poses logistical and technical risks. We aim to develop an integrated testing solution to conduct placement tests efficiently and effectively.
 
 tech stack used:
 
+Frontend:
 HTML5
 CSS3
 JavaScript
+Responsive design principles
+
+Backend:
+NodeJs
+ExpressJs
+MongoDb
+JWT(Authentication)
+
+
 
 
 
@@ -31,4 +42,6 @@ University students today often find themselves juggling between different platf
 This constant switching makes learning feel scattered and disconnected. Students miss out on seeing how their academic progress and coding skills come together, and faculty find it hard to track or support both sides. On top of that, most platforms don’t offer real-time help, smart feedback, or collaborative coding environments that actually mimic real-world teamwork.
 
 There’s a clear need for something better—a single, smart platform that brings it all together: academics, coding practice, AI support, and even job readiness. That’s where Campus Bridge comes in—to create a smoother, more connected learning journey for students, teachers, and placement teams alike.
+
+
 
