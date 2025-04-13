@@ -13,7 +13,8 @@ Web Development
 
 
 Problem Statement:
-Despite the rapid growth of educational technology, students often face a fragmented learning experience. Traditional LMS platforms primarily focus on academic tracking but lack integrated support for practical, skill-based learning, especially in areas like software development.
+Despite the rapid growth of educational technology, students often face a fragmented learning experience. Traditional LMS platforms primarily focus on academic tracking but lack integrated support for practical, skill-based learning, especially in areas like software development.Users complete tasks/quizzes and earn Aptos tokens as rewards.
+
 
 
 tech stack used:
